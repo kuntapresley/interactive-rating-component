@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #121417;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
+  position: absolute;
+}
+
+.container {
+  background-color: #252d37;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  position: relative;
+}
+
+button {
+  background-color: #252d37;
+  -webkit-box-shadow: 0px 0px 500px #121417;
+          box-shadow: 0px 0px 500px #121417;
+  padding: 20px;
+  color: #959eac;
+  border: none;
+  margin: 15px;
+  border-radius: 50px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  background-color: #fb7413;
+  width: 100%;
+  border-radius: 50px;
+  font-size: large;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transition: all 5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.submit-btn:hover {
+  color: #fb7413;
+  background-color: white;
+  -webkit-transition: all 5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+p {
+  color: #959eac;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.icon {
+  position: absolute;
+  top: 5%;
+  padding: 10px;
+  background-color: #252d37;
+  -webkit-box-shadow: 100px 100px 200px #252d37;
+          box-shadow: 100px 100px 200px #252d37;
+  border-radius: 50px;
+}
+
+.main-container {
+  background-color: #252d37;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.thank-you-container {
+  background-color: #252d37;
+  border-radius: 50px;
+  position: absolute;
+  line-height: 50px;
+  text-align: center;
+}
+
+.select {
+  background-color: #252d37;
+  -webkit-box-shadow: 0px 0px 1000px #252d37;
+          box-shadow: 0px 0px 1000px #252d37;
+  color: #fb7413;
+  padding: 20px;
+  border: 1px solid #252d37;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=main.css.map */
