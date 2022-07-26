@@ -1,0 +1,207 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;}
+    *,*:before*:after{
+        box-sizing: inherit;
+    }
+body{
+    background-color:  hsl(216, 12%, 8%);
+    color: white;
+    font-family:"overpass";
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    font-weight: 700;
+}
+@media only screen and (max-width:375px){
+   body{
+    padding: 2rem;
+   } 
+}
+.container{
+    max-width: 26rem;
+    background-color: hsl(213, 19%, 18%);
+    
+    padding: 2rem;
+  border-radius: 10px;
+}
+.interactive__rating{
+display: flex;
+flex-direction: column;
+gap:1rem;
+justify-content: center;
+}
+.interactive__thankyou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 26.5rem;
+}
+.thankyou-logo{
+    margin-bottom: 1.5rem;
+}
+.thankyou-heading{
+    margin-bottom: 0.8rem;
+}
+.hidden{
+    display: none;
+}
+.icon{
+    padding: 1rem;
+    border-radius:50% ;
+    background-color:hsl(213deg, 19%, 21%); 
+    color:hsl(217, 12%, 63%);
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+}
+p{
+    color:hsl(217, 12%, 63%);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.interactive__cta{
+    display: flex;
+    gap:1rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.interactive__cta__button {
+    padding: 1rem;
+    border-radius:50% ;
+    background-color:hsl(213deg, 19%, 21%);
+    color:hsl(217, 12%, 63%); 
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    border: none;
+}
+.thankyou-result{
+    background-color: hsl(213deg, 19%, 21%);
+    color: hsl(25, 97%, 53%);
+    padding: 0.8rem;
+border-radius:100px ;
+font-size: 0.85rem;
+margin-bottom: 2rem;
+}
+input{
+
+    display: none;
+}
+input[type=radio] + label{
+    text-align: center;
+    padding: 1rem;
+    width:3rem;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+        background-color: hsl(213deg, 19%, 21%) ;
+    color: hsl(217, 12%, 63%);
+    }
+input[type=radio] + label:hover {
+background-color: hsl(216, 12%, 54%) ;
+color: hsl(0, 0%, 100%);
+}  
+    input[type=radio]:checked + label{
+        text-align: center;
+        padding: 1rem;
+        width:3rem;
+        height: 3rem;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+            background-color:  hsl(25, 97%, 53%) ;
+        color: hsl(0, 0%, 100%);
+         }
+.submit-btn{
+    margin-top:20px ;
+    background-color:hsl(25, 97%, 53%);
+    width:100%;
+    border-radius:50px ;
+    font-weight: 700;
+    border: none;
+    color: hsl(0, 0%, 100%) ;
+    cursor:pointer;
+    padding: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    transition: all 5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+label{
+    margin:10px;
+   
+}
+.submit-btn:hover{
+     background-color:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);;
+    transition: all 5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.interactive-content{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    
+}
+.interactive__icon{
+    padding: 1rem;
+    background-color:  hsl(213deg, 19%, 21%);
+    color:  hsl(217, 12%, 63%);
+    //border:1px solid black;
+    border-radius: 50%;
+    width:3rem;
+    height:3rem;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+////// thank you container
+// .main-container{
+    
+//     background-color: hsl(213, 19%, 18%);
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//       width: 400px;
+//       height:400px;
+//   border-radius: 50px;
+//   position: relative;
+//  // margin-top: 56cm;
+  
+// }
+// .thank-you-container{
+
+//     background-color: hsl(213, 19%, 18%);
+// //     display: flex;
+// //     align-items: center;
+// //    justify-content: cente
+//   border-radius: 50px;
+//   position: absolute;
+// line-height: 50px;
+//   text-align: center;
+// }
+//  
+// .select{
+//     background-color: hsl(213, 19%, 18%) ;
+//     box-shadow: 0px 0px 1000px hsl(213, 19%, 18%) ;
+//     color: hsl(25, 97%, 53%);
+//     padding:20px;
+//     border:1px solid hsl(213, 19%, 18%) ;
+//     border-radius: 20px;
+// }
+
+
+
+
+
+
+
+
